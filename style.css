@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: url(fc7112deb70332021e9f585d50afcb5d.jpg);
+
+
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+}
+#nav{
+   
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "gilroy";
+    height: 8%;
+    width: 100%;
+    position: absolute;
+   
+}
+#nav1{
+    display: inline-flex;
+    gap: 50px;
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
+#nav1 h4{
+    transition: all ease 1s;
+}
+#nav1 h4:hover{
+  text-decoration: underline;
+}
+#nav2{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    margin-top: -1%;
+    margin-right: 4%;
+    
+}
+#nav2 h4{
+    transition: all ease 1s;
+}
+#nav2 h4:hover{
+    text-decoration: underline;
+}
+#icon{
+    border: solid 1px;
+    border-radius: 15px;
+    display: flex;
+    gap: 6px;
+    padding: 3px;
+   
+   
+    
+
+}
+
+.color{
+    color: rgb(231, 119, 7);
+  
+}
+#straight{
+    width: 13%;
+    height: 77.4%;
+   background: linear-gradient( rgb(2, 157, 174),white,rgb(255, 64, 0) 80%);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);    
+    background-size: cover;
+    background-position-x: center;
+}
+ #img{
+    height: 39%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(IMG_8032-removebg-preview.png);
+}
+#circle{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+    top: 5%;
+    
+    
+    
+}
+
+#circle h4{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%); 
+    border: solid 1px white;
+    text-align: center;
+    font-family: "gilroy";
+    letter-spacing: 2px;
+
+}
+    #text{
+        position: absolute;
+        top: 18%;
+        left: 4%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #text button{
+        position: absolute;
+        top: 5rem;
+        left: -1%;
+        background-color: transparent;
+       font-size: 18px;
+       border: solid 1px transparent;
+       text-transform: capitalize;
+       color: rgb(0, 0, 0);
+       transition: all ease 1s;
+       
+       padding: 10px;
+       border-radius: 50px;
+       font-family: gilroy;
+    }
+    #text button:hover{
+        background-color: black;
+        color: white;
+        
+       
+     
+    }
+    #text2{
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 50px;
+        font-family: rockybilly;
+        letter-spacing: 6px;
+        rotate:-11deg  ;
+        transition: all ease 0.6s;
+       
+    }
+    #text2:hover{
+      color: salmon;
+    }
+    #circle1{
+        position: absolute;
+       height: 8rem;
+       width: 8rem;
+      
+       border-radius: 100px;
+       top: 55%;
+       right: 7%;
+       background-size: cover;
+       background-position: center;
+       background-image: url(https://img.freepik.com/free-photo/cute-smiling-young-man-with-bristle-looking-satisfied_176420-18989.jpg?w=2000);
+
+
+    }
+    #circle2{
+        position: absolute;
+       height: 8rem;
+       width: 8rem;
+       background-color: black;
+       border-radius: 100px;
+       top: 55%;
+       right: 14%;
+       background-size: cover;
+       background-position: center;
+       background-image: url(https://img.freepik.com/free-photo/smiling-female-hiker-holding-binocular_23-2147842577.jpg);
+
+    }
+    #circle3{
+        position: absolute;
+       height: 8rem;
+       width: 8rem;
+       background-color: black;
+       border-radius: 100px;
+       top: 55%;
+       right: 21%;
+       background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/3648b4156222589.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png);
+       background-size: cover;
+       background-position: center;
+       
+    }
+    #arrow h1{
+        position: absolute;
+        color: black;
+        font-family: rockybilly;
+        font-size: 55px;
+        top: 20%;
+        left: 20%;
+        transform: rotate(180deg);
+    }
+    #arrow h2{
+        position: absolute;
+        color: black;
+        font-family: rockybilly;
+        font-size: 55px;
+        top: 30%;
+        left: 10%;
+        transform: rotate(180deg);
+    }
+    #arrow h3{
+        position: absolute;
+        color: black;
+        font-family: rockybilly;
+        font-size: 55px;
+        top: 20%;
+        left: 75%;
+        transform: rotate(180deg);
+    }
+    #arrow h4{
+        position: absolute;
+        color: black;
+        font-family: rockybilly;
+        font-size: 55px;
+        top: 10%;
+        left: 85%;
+        transform: rotate(180deg);
+    }
+    #btmright{
+        display: flex;
+        gap: 4rem;
+        position: absolute;
+        justify-content: center;
+        bottom: 0;
+        right: 0.6%;
+        
+        
+    }
+
+    #block1{
+        height: 190px;
+        width: 250px;
+        background-color: black;
+        background-image: url(https://wordpress.wbur.org/wp-content/uploads/2019/03/briana-tozour-759187-unsplash-1000x618.jpg);
+        background-size: cover;
+        background-position: center;
+       transform: scaleX(-1);
+    }
+    #block2{
+        height: 190px;
+        width: 250px;
+        background-color: black;
+        background-image: url(https://thesurfatlas.com/wp-content/uploads/2022/11/Keramas-beach.jpg);
+        background-size: cover;
+        background-position: center;
+        transform: scaleX(-1);
+       
+
+    }
+    #block3{
+        height: 190px;
+        width: 250px;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+       background-image: url(https://images.unsplash.com/photo-1559585196-192100d662c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+
+    }
+
+    #btmleft{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: start;
+       bottom: 10%;
+       left: 5%;
+       width: 20%;
+    }
+    #btmleft p{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: gray;
+    }
+
+    #btmleft h3{
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    #btmleft button{
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 50px;
+        background-color: black;
+        color: #fff;
+        text-transform: capitalize;
+        transition: all ease 1s;
+    }
+    #btmleft button:hover{
+        background: transparent;
+        color: black;
+        border: solid 1px black;
+    }
+
+
+  
+  
+  
+  
